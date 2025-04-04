@@ -1,0 +1,22 @@
+{
+  "name": "todo-list-website",
+  "version": "1.0.0",
+  "description": "A simple Todo List application built with Next.js and MySQL.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "next": "latest",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5"
+  },
+  "license": "MIT"
+}
