@@ -9,6 +9,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
     "next": "latest",
     "react": "^18.3.1",

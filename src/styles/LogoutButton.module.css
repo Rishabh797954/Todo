@@ -1,0 +1,55 @@
+.logoutButton {
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #FF4444 0%, #FF1111 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 68, 68, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  overflow: hidden;
+}
+
+.logoutButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 68, 68, 0.4);
+  background: linear-gradient(135deg, #FF5555 0%, #FF2222 100%);
+}
+
+.logoutButton:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 10px rgba(255, 68, 68, 0.3);
+}
+
+.logoutButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 68, 68, 0.3), 0 4px 15px rgba(255, 68, 68, 0.3);
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2.5rem;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.title {
+  color: #ffffff;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
